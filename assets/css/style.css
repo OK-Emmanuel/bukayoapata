@@ -13,13 +13,18 @@
   background-color: var(--olive-green-40);
   color: var(--secondary-color);
 }
-.download-btn{
+.download-btn {
   background-color: var(--secondary-color);
   color: var(--olive-green-40);
   padding: 25px 60px;
   font-weight: bold;
   cursor: pointer;
   transition: all 0.3s;
+}
+.download-btn a:hover{
+  
+  color: var(--secondary-color);
+ 
 }
 .download-btn:hover{
   background-color: var(--olive-green-40);
@@ -333,7 +338,7 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 20px 0px 10px;
   overflow: hidden;
 }
 
